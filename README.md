@@ -1,2 +1,2 @@
 # Password_generator
-Generated password upon request
+Generates password upon request
