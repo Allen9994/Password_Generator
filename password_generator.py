@@ -14,7 +14,7 @@ if m == 1:
 else:
     li = [0,1,2,3]
 while(flag):
-    n = input("Enter length of the password (minimum : 8 maximum : 20)")
+    n = input("Enter length of the password (minimum : 8 maximum : 20)\n")
     if len(n) == 0:
         print("Try again")
     elif int(n)>=8 and int(n)<=20:
