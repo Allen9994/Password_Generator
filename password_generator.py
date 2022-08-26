@@ -30,14 +30,13 @@ random.shuffle(li)
 print("Your password is: ",end = '')
 
 for i in range(n):
-    f = li[i]
-    if f == 3:
+    if li[i] == 3:
         c = chr(random.randint(33,47))
         print(c,end = '')
-    elif f == 2:
+    elif li[i] == 2:
         c = chr(random.randint(65,90))
         print(c,end = '')
-    elif f == 1:
+    elif li[i] == 1:
         c = chr(random.randint(97,122))
         print(c,end = '')
     else:
